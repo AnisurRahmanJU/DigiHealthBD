@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>হেলথ-চেক: লক্ষণ ও প্রতিকার</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>🩺 বিডি ডিজিটাল স্বাস্থ্যসেবা</h1>
+            <p>আপনার লক্ষণগুলি সিলেক্ট করুন (যেমন: পেট মোচড়ানো, জ্বর)</p>
+        </header>
+
+        <main>
+            <div class="search-container">
+                <input type="text" id="symptomInput" placeholder="লক্ষণ খুঁজুন বা টাইপ করুন...">
+                <div id="suggestions" class="suggestions-box"></div>
+            </div>
+
+            <div id="selectedSymptoms" class="chip-container"></div>
+
+            <div id="resultArea" class="result-container">
+                <!-- ফলাফল এখানে দেখাবে -->
+            </div>
+        </main>
+
+        <div class="disclaimer">
+            <p>⚠️ <strong>সতর্কতা:</strong> এটি একটি পরীক্ষামূলক প্রজেক্ট। ঔষধ সেবনের পূর্বে অবশ্যই রেজিস্ট্রার্ড চিকিৎসকের পরামর্শ নিন।</p>
+        </div>
+    </div>
+    <script src="symptoms.js"></script>
+</body>
+</html>
