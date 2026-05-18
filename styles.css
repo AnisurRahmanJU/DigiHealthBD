@@ -29,5 +29,4 @@ header p { color: var(--text-muted); font-size: 1.1rem; }
     header h1 { font-size: 1.8rem; }
     .result-container { grid-template-columns: 1fr; }
 }
-.smart-footer { margin-top: 60px; padding: 20px; text-align: center; background: #1e293b; color: #e2e8f0;  font-size: 0.9rem; border-top: 3px solid #38bdf8; border-radius: 12px 12px 0 0; }
-
+.smart-footer{margin-top:auto;padding:20px;text-align:center;background:#1e293b;color:#e2e8f0;font-size:.9rem;border-top:3px solid #38bdf8;border-radius:12px 12px 0 0}
